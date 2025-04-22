@@ -1,0 +1,1 @@
+import { animals } from './animaux.js';
