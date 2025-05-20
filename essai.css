@@ -1,0 +1,33 @@
+*, h1, h2{
+    margin: 3;
+    padding: 3;
+    box-sizing: border-box;
+  }
+#inclusion {
+  align-items: center;
+padding: 10px;
+display: grid;
+  grid-template-columns: repeat(4,1fr);
+  grid-template-rows: repeat(2,auto);
+
+}
+
+#bulle {
+    height: 220px;
+    width:180px;
+    text-align: center;
+    align-items: center;
+    box-shadow: 1px 1px 12px #555;
+ 
+    border: #333;
+    font-size: x-small;
+   
+    grid-area: bulle1;
+    margin-bottom: 20px;  
+}
+
+.image {
+height: 120px;
+width: 180px;
+object-fit: cover;
+}

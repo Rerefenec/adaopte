@@ -85,6 +85,7 @@ height: 35px;
   height: 100%; /* Remplir la hauteur du conteneur */
   object-fit: cover; /* Recadre l'image pour qu'elle couvre tout l'espace du conteneur */
   filter: brightness(50%); /* Applique l'effet de luminosité sur l'image */
+  align-items: center;
 } 
 
  body {
@@ -104,14 +105,14 @@ text-align: center;
  }
 
  .negatif{
-  position: absolute;
+  position: relative;
   color: #f4f4f4;
   text-align: center;
   font-family: "Amatic SC", sans-serif;
     font-weight: 400;
     font-style: normal;
     top: 10%;
-    left: 30%;
+   
  }
 
  .negatif2{
@@ -330,7 +331,7 @@ padding: 10px;
   background-color: #e4e4e0;
  }
 
- #section3 {
+ #formulaire{
   background-color: #e4e4e0;
  }
 
